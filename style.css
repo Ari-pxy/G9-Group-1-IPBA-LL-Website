@@ -19,7 +19,9 @@ nav:after{
 }
 nav .logo{
   float: left;
-  color: #cb997e;
+background: linear-gradient(#cb997e, #c7c7bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 27px;
   font-weight: 600;
   line-height: 70px;
@@ -173,6 +175,10 @@ header{
   font-size: 35px;
   font-weight: 600;
   padding: 10px 0;
+background: -webkit-linear-gradient(#c29f91, #c7c7bb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 p{
   font-size: 20px;
