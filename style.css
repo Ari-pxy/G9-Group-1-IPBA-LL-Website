@@ -19,9 +19,7 @@ nav:after{
 }
 nav .logo{
   float: left;
-background: linear-gradient(#cb997e, #c7c7bb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #cb997e;
   font-size: 27px;
   font-weight: 600;
   line-height: 70px;
@@ -166,21 +164,23 @@ nav ul ul ul li{
 .content{
   z-index: -1;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
+  transform: translate(-60%,-80%);
+  text-align: left;
 }
 header{
   font-size: 35px;
   font-weight: 600;
   padding: 10px 0;
-background: -webkit-linear-gradient(#c29f91, #c7c7bb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
 }
 p{
   font-size: 20px;
-  font-weight: 500;
+
+}
+p3{
+  color: #a37a64
+}
+p1{
+    color: #546b54
 }
