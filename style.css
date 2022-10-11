@@ -25,6 +25,8 @@ nav .logo{
   line-height: 70px;
   padding-left: 60px;
 }
+
+
 nav ul{
   float: right;
   margin-right: 40px;
@@ -160,8 +162,23 @@ nav ul ul ul li{
   span.cancel:before{
     content: '\f00d';
   }
+body {
+ height: 1360px;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ overflow: scroll;
 }
-.content{
+}
+.title{
+  z-index: -1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%,-80%);
+  text-align: center;
+}
+.main-content{
   z-index: -1;
   position: absolute;
   top: 60%;
