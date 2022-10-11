@@ -7,7 +7,7 @@
   font-family: 'Aleo', sans-serif;
 }
 body{
-  background: #f2f2f2;
+  background: #f2f2f2;EAE6DF
 }
 nav{
   background: #1b1b1b;
@@ -191,7 +191,14 @@ body {
   left: 50%;
   transform: translate(-90%,-80%);
   text-align: left;
-  
+}
+.main-content2{
+  z-index: -1;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-90%,-80%);
+  text-align: left;
 }
 header{
   font-size: 35px;
