@@ -1,26 +1,17 @@
-  <script type="text.javascript">
-     function myFunc() {
-      document.getELementById("demo").innerHTML = "Hello Everyone!";
-      }
-  
-  $(document).ready(function() {
+function resizePanel() {
 
-	$('a.panel').click(function () {
+	//get the browser width and height
+	width = $(window).width();
+	height = $(window).height();
 
-		$('a.panel').removeClass('selected');
-		$(this).addClass('selected');
+	//get the mask height: height * total of items
+	mask_height = height * $('.item').length;
 		
-		current = $(this);
-		
-		$('#wrapper').scrollTo($(this).attr('href'), 800);		
-		
-		return false;
-	});
+	//set the dimension		
+	$('#wrapper, .item').css({width: width, height: height});
+	$('#mask').css({width: width, height: mask_height});
 
-
-	$(window).resize(function () {
+	//if the item is displayed incorrectly, set it to the corrent pos
+	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);
 		
-		resizePanel();
-	});
-	
-});
+}
