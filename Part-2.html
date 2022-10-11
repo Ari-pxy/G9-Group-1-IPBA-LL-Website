@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Drop-down Menu Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="file:///E:/jquery.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">| G1 |</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Part 1 +</label>
+          <a href="Part-1.html">Part 1</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="Part-1.html" id="#a1">A. Categories</a></li>
+            <li><a href="Part-1.html" id="#b1">B. Target Audience</a></li>
+            <li><a href="Part-1.html" id="#c1">C. Needs</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-2" class="show">Part 2 +</label>
+          <a href="Part-2.html">Part 2</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="#a2">A. YT Category based on requirements</a></li>
+            <li><a href="#b2">B. Examples of those YT Categories</a></li>
+            <li><a href="#c2">C. Needs within the chosen Category</a></li>
+          </ul>
+        </li>
+        <li><a href="Contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <header>Part 1: </header>
+      <p>Identify and choose the best content type for a YouTube channel that will promote fundraising.</p>
+      <p3>Create a draft of your plan with the following information: </p3>
+        <br> <br>
+        <div class="answers" id="a2">
+                    <h2>A. Choose a YouTube content category based on skill and technical requirements</h2>
+                    <p1>We evaluated 3 categories; these are Motivational videos, Commentary style videos, and Music videos</p1>
+               </div>
+        <br>
+        <div class="answers" id="b2">
+                    <h2>B. Watch content from the chosen categories</h2>
+                    <p1></p1>
+               Motivational videos give a sense of concern while also being professional. Watching motivational videos lifts up the mood and makes you feel motivated to take action.
+<br><br>
+Commentary has a more ‘laid back’ style, although less professional it gives the perspective of a real person. Typically, they analyze the topic, explain it to the audience (giving them background, the current status, and their views/opinions about this)
+<br><br>
+Music videos or song video is a short film integrating a song and imagery, produced for a promotional and artistic purposes. They’re usually paired with a choreography or a depiction of a story. There is a vast majority of music videos be it serious or unprofessional; the main idea of music videos is to entertain its listeners and to tell a message.
+      </div>
+        <br>
+        <div class="answers" id="c2">
+                    <h2>C. Needs</h2><br>
+                    <p1>Motivational Videos - We chose motivational videos because it gives a sense of inspiration, it boosts thier confidence, and encourages those who watch to try to contribute and do their part. With motivational videos, we can help inspire while informing the people about the current situation of Sitio Bebe. 
+<br><br>
+Commentary Videos - We chose commentary videos because it is easy to consume; whilst being educative it also gives the perspective/view of the speaker. These types of videos are meant to be fun and casual.
+<br><br>
+Music videos - We chose Music videos because the audience needs to be informed about the circumstances of Sitio Bebe; the crisis they are facing right now. Showcased in a fun and entertaining manner.
+
+          </p1>
+          <br><br><hr><br>
+          <p3>We selected ‘Motivational Videos’ as our chosen YouTube category. Since we believe that this will be the best choice for promoting our fundraiser.</p3>
+                </div>
+      
+        
+        
+</div>
+    
+    <script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+
+  </body>
+</html>
