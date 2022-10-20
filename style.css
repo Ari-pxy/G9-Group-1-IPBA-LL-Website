@@ -292,7 +292,7 @@ nav ul ul ul li{
     cursor: pointer;
   }
   .show:hover{
-    color: cyan;
+    color: #d4bab0;
   }
   .icon{
     display: block;
